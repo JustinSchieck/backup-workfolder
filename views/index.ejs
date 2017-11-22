@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
+  <% include includes/header.ejs %>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div id="headerwrap">
+        <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h1>Hi, I'm Justin, Im a programmer and web developer who cares about your story.</h1>
+          </div>
+          <div class="col-lg-8 col-lg-offset-2 himg">
+            <img src="/public/images/img/browser.png" class="img-responsive">
+          </div>
+        </div><!-- /row -->
+        </div> <!-- /container -->
+    </div><!-- /headerwrap -->
   </body>
+  <% include includes/footer.ejs %>
 </html>
